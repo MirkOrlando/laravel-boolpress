@@ -1938,6 +1938,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'About'
 });
@@ -37853,14 +37872,57 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c("div", { staticClass: "p-5 bg-dark text-light" }, [
+      _c("div", { staticClass: "container" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("hr", { staticClass: "my-2" }),
+        _vm._v(" "),
+        _c("p", [_vm._v("Visit the Blog!")]),
+        _vm._v(" "),
+        _c(
+          "p",
+          { staticClass: "lead" },
+          [
+            _c(
+              "router-link",
+              {
+                staticClass: "btn btn-primary btn-lg",
+                attrs: { to: { name: "posts" } },
+              },
+              [_vm._v("Go to Blog")]
+            ),
+          ],
+          1
+        ),
+      ]),
+    ]),
+  ])
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [_c("h1", [_vm._v("About")])])
+    return _c("div", { staticClass: "d-flex align-items-center gap-3" }, [
+      _c("div", { staticClass: "pic" }, [
+        _c("img", {
+          staticClass: "rounded-circle",
+          attrs: { src: "https://picsum.photos/100", alt: "" },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "text" }, [
+        _c("h1", { staticClass: "display-4 m-0" }, [_vm._v("About Me")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "lead m-0" }, [
+          _vm._v(
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt,\n                        quisquam.\n                    "
+          ),
+        ]),
+      ]),
+    ])
   },
 ]
 render._withStripped = true
@@ -38340,9 +38402,11 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("li", { staticClass: "nav-item" }, [
-            _c("a", { staticClass: "nav-link", attrs: { href: "/about" } }, [
-              _vm._v("About"),
-            ]),
+            _c(
+              "a",
+              { staticClass: "nav-link active", attrs: { href: "/about" } },
+              [_vm._v("About")]
+            ),
           ]),
           _vm._v(" "),
           _c("li", { staticClass: "nav-item" }, [
