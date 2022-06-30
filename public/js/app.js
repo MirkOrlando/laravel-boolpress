@@ -1958,6 +1958,44 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Home'
 });
@@ -37782,7 +37820,7 @@ var staticRenderFns = [
     return _c("div", [
       _c("div", { staticClass: "p-5 bg-dark text-light" }, [
         _c("div", { staticClass: "container" }, [
-          _c("h1", { staticClass: "display-3" }, [_vm._v("BoolPress")]),
+          _c("h1", { staticClass: "display-3" }, [_vm._v("Blog")]),
           _vm._v(" "),
           _c("p", { staticClass: "lead" }, [
             _vm._v(
@@ -37846,14 +37884,54 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c("div", { staticClass: "p-5 bg-dark text-light" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("h1", { staticClass: "display-3" }, [_vm._v("BoolPress")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "lead" }, [
+          _vm._v(
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, quisquam."
+          ),
+        ]),
+        _vm._v(" "),
+        _c("hr", { staticClass: "my-2" }),
+        _vm._v(" "),
+        _c("p", [_vm._v("Visit the Blog!")]),
+        _vm._v(" "),
+        _c(
+          "p",
+          { staticClass: "lead" },
+          [
+            _c(
+              "router-link",
+              {
+                staticClass: "btn btn-primary btn-lg",
+                attrs: { to: { name: "posts" } },
+              },
+              [_vm._v("Go to Blog")]
+            ),
+          ],
+          1
+        ),
+      ]),
+    ]),
+    _vm._v("\n    ."),
+    _vm._m(0),
+  ])
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [_c("h1", [_vm._v("Home")])])
+    return _c("div", { staticClass: "container" }, [
+      _c("p", { staticClass: "content py-4" }, [
+        _vm._v(
+          "\n            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui maiores non, veniam unde, ducimus quasi\n            aperiam similique harum tempora mollitia iste accusamus quos quisquam deserunt dolore provident\n            consequatur libero. Voluptates assumenda et sapiente harum praesentium ad rem vel facilis maxime,\n            consequatur repellendus nemo corporis iure. Alias mollitia, facilis iure aliquam quos sit blanditiis sed\n            molestiae nemo, illo doloremque. Dicta quis molestiae sequi tempora perspiciatis et porro, quibusdam\n            itaque pariatur, consequatur fuga quam neque similique accusamus. Corporis exercitationem fugiat earum\n            ex accusamus dicta. Eos reiciendis sunt dicta odio officiis quod nihil nemo architecto a mollitia illum,\n            nam consequatur ipsam fugiat pariatur maiores ullam voluptates accusantium nesciunt voluptas, voluptatem\n            facere laudantium illo? Dolore saepe, dolorum quidem illo optio nam pariatur repudiandae impedit\n            eligendi! Aliquid non incidunt sunt sequi asperiores magnam itaque modi facilis possimus culpa\n            recusandae accusamus vitae quibusdam neque vero deserunt, dicta adipisci officia aspernatur ullam\n            explicabo rem. Iusto, hic, deleniti praesentium molestias, vero ullam excepturi similique ipsam sequi\n            unde tempore. In hic dolorum ratione inventore, natus, ipsa omnis architecto impedit a quos facere\n            recusandae voluptas ad sint cum consequuntur dolorem vel? Quasi alias pariatur, quam dolore, perferendis\n            accusamus quos quas quidem laborum ratione fugit aliquid aperiam autem at voluptatem assumenda earum\n            maiores libero minus veritatis possimus magnam animi tempore exercitationem. Cum beatae nostrum quasi\n            exercitationem? Repudiandae ipsum, at itaque similique ducimus inventore veritatis dolorum qui error\n            saepe! Aspernatur minima ipsam aut, corrupti dolorum laudantium veniam ratione laborum excepturi\n            deserunt libero distinctio repellendus provident natus. Cum hic in mollitia eius odio aut vitae adipisci\n            libero magni? Harum quam sed facere veritatis quasi libero, esse delectus placeat illum minus magnam\n            consectetur aliquam ut nobis voluptas voluptate est tempora quisquam expedita. Dolore, saepe. Iusto quis\n            nesciunt dolore molestiae repudiandae quasi maiores veniam accusantium quod praesentium debitis unde\n            consequuntur, adipisci, explicabo obcaecati molestias neque!\n        "
+        ),
+      ]),
+    ])
   },
 ]
 render._withStripped = true
