@@ -10,6 +10,7 @@ Vue.use(VueRouter)
 import Home from './pages/Home'
 import About from './pages/About'
 import Posts from './pages/Posts'
+import Post from './pages/Post'
 
 
 // 2. Define some routes
@@ -32,6 +33,11 @@ const routes = [
         path: '/posts',
         name: 'posts',
         component: Posts
+    },
+    {
+        path: '/posts/:slug',
+        name: 'post',
+        component: Post
     },
 ]
 
