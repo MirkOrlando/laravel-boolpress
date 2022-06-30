@@ -14,14 +14,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">Homepage</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="/about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/posts">Posts</a>
+                        <li class="nav-item" v-for="(item, index) in navItems" :key="index">
+                            <!-- implementare la funzione che attiva il link della pagina 
+                            visualizzata @click="getItemActive(index)" 
+                           :class="activeItem === index ? 'active' : ''"
+                           -->
+                            <router-link class="nav-link" :to="{ name: item.name }">{{ item.text }}
+                            </router-link>
                         </li>
                     </ul>
 
@@ -38,5 +37,29 @@
 <script>
 export default {
     name: 'App',
+    data() {
+        return {
+            navItems: [
+                {
+                    name: 'home',
+                    text: 'Home',
+                },
+                {
+                    name: 'about',
+                    text: 'About',
+                },
+                {
+                    name: 'posts',
+                    text: 'Posts',
+                },
+            ],
+            /* activeItem: 0 */
+        }
+    },
+    methods: {
+        /* getItemActive(i) {
+            this.activeItem = i
+        } */
+    },
 }
 </script>

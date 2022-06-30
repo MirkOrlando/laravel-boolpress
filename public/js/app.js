@@ -2236,9 +2236,29 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'App'
+  name: 'App',
+  data: function data() {
+    return {
+      navItems: [{
+        name: 'home',
+        text: 'Home'
+      }, {
+        name: 'about',
+        text: 'About'
+      }, {
+        name: 'posts',
+        text: 'Posts'
+      }]
+      /* activeItem: 0 */
+
+    };
+  },
+  methods: {
+    /* getItemActive(i) {
+        this.activeItem = i
+    } */
+  }
 });
 
 /***/ }),
@@ -38350,7 +38370,43 @@ var render = function () {
               _vm._v(" "),
               _vm._m(0),
               _vm._v(" "),
-              _vm._m(1),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse navbar-collapse",
+                  attrs: { id: "navbarSupportedContent" },
+                },
+                [
+                  _c(
+                    "ul",
+                    { staticClass: "navbar-nav mr-auto" },
+                    _vm._l(_vm.navItems, function (item, index) {
+                      return _c(
+                        "li",
+                        { key: index, staticClass: "nav-item" },
+                        [
+                          _c(
+                            "router-link",
+                            {
+                              staticClass: "nav-link",
+                              attrs: { to: { name: item.name } },
+                            },
+                            [
+                              _vm._v(
+                                _vm._s(item.text) + "\n                        "
+                              ),
+                            ]
+                          ),
+                        ],
+                        1
+                      )
+                    }),
+                    0
+                  ),
+                  _vm._v(" "),
+                  _c("ul", { staticClass: "navbar-nav ml-auto" }),
+                ]
+              ),
             ],
             1
           ),
@@ -38381,43 +38437,6 @@ var staticRenderFns = [
         },
       },
       [_c("span", { staticClass: "navbar-toggler-icon" })]
-    )
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "collapse navbar-collapse",
-        attrs: { id: "navbarSupportedContent" },
-      },
-      [
-        _c("ul", { staticClass: "navbar-nav mr-auto" }, [
-          _c("li", { staticClass: "nav-item" }, [
-            _c("a", { staticClass: "nav-link", attrs: { href: "/" } }, [
-              _vm._v("Homepage"),
-            ]),
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "nav-item" }, [
-            _c(
-              "a",
-              { staticClass: "nav-link active", attrs: { href: "/about" } },
-              [_vm._v("About")]
-            ),
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "nav-item" }, [
-            _c("a", { staticClass: "nav-link", attrs: { href: "/posts" } }, [
-              _vm._v("Posts"),
-            ]),
-          ]),
-        ]),
-        _vm._v(" "),
-        _c("ul", { staticClass: "navbar-nav ml-auto" }),
-      ]
     )
   },
 ]
