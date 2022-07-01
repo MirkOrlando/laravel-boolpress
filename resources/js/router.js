@@ -11,7 +11,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Posts from './pages/Posts'
 import Post from './pages/Post'
-
+import NotFound from './pages/NotFound'
 
 // 2. Define some routes
 // Each route should map to a component. The "component" can
@@ -38,6 +38,11 @@ const routes = [
         path: '/posts/:slug',
         name: 'post',
         component: Post
+    },
+    {
+        path: '/*',
+        name: 'npt-found',
+        component: NotFound
     },
 ]
 
