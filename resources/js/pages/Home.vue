@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="page">
         <div class="p-5 bg-dark text-light">
             <div class="container">
                 <h1 class="display-3">BoolPress</h1>

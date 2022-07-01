@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="page">
         <div class="p-5 bg-dark text-light">
             <div class="container">
                 <div class="d-flex align-items-center gap-3">

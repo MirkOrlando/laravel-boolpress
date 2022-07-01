@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="page">
         <bannerComponent />
         <main class="d-flex py-5">
             <section class="posts">
@@ -12,7 +12,8 @@
                                     <h4 class="card-title">{{ post.title }}</h4>
                                     <p class="card-text">
                                         {{ truncateText(post.content) }}
-                                        <a href="">See more</a>
+                                        <router-link :to="{ name: 'post', params: { slug: post.slug } }">See more
+                                        </router-link>
                                     </p>
                                 </div>
                                 <div class="card-footer">
