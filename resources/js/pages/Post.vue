@@ -78,5 +78,6 @@ export default {
 .jumbo {
     background-color: #0000009e;
     background-blend-mode: overlay;
+    min-height: 60vh;
 }
 </style>

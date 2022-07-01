@@ -31,7 +31,9 @@
                 </div>
             </div>
         </nav>
-        <router-view></router-view>
+        <main>
+            <router-view></router-view>
+        </main>
         <footer class="py-4 bg-dark text-light text-center">Copyright &copy;2022</footer>
     </div>
 </template>
@@ -64,3 +66,9 @@ export default {
     },
 }
 </script>
+
+<style>
+main {
+    min-height: 100vh;
+}
+</style>
