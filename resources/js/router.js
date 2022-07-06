@@ -47,7 +47,7 @@ const routes = [
     },
     {
         path: '/*',
-        name: 'npt-found',
+        name: 'not-found',
         component: NotFound
     },
 ]

@@ -2119,14 +2119,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'NotFound'
 });
@@ -2205,8 +2197,14 @@ __webpack_require__.r(__webpack_exports__);
 
       axios.get('/api/posts/' + this.$route.params.slug).then(function (response) {
         //console.log(response);
-        _this.post = response.data;
-        _this.loading = false;
+        if (response.data.status_code === 404) {
+          _this.$router.push({
+            name: 'not-found'
+          });
+        } else {
+          _this.post = response.data;
+          _this.loading = false;
+        }
       })["catch"](function (e) {
         console.log(e);
       });
@@ -39008,31 +39006,7 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "page" }, [
-    _c("div", { staticClass: "p-5 bg-dark text-light" }, [
-      _c("div", { staticClass: "container" }, [
-        _vm._m(0),
-        _vm._v(" "),
-        _c("hr", { staticClass: "my-2" }),
-        _vm._v(" "),
-        _c("p", [_vm._v("Visit the Blog!")]),
-        _vm._v(" "),
-        _c(
-          "p",
-          { staticClass: "lead" },
-          [
-            _c(
-              "router-link",
-              {
-                staticClass: "btn btn-primary btn-lg",
-                attrs: { to: { name: "posts" } },
-              },
-              [_vm._v("Go to Blog")]
-            ),
-          ],
-          1
-        ),
-      ]),
-    ]),
+    _vm._m(0),
     _vm._v(" "),
     _c("div", { staticClass: "redirect" }, [
       _c("p", [
@@ -39080,21 +39054,20 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "d-flex align-items-center gap-3" }, [
-      _c("div", { staticClass: "pic" }, [
-        _c("img", {
-          staticClass: "rounded-circle",
-          attrs: { src: "https://picsum.photos/100", alt: "" },
-        }),
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "text" }, [
-        _c("h1", { staticClass: "display-4 m-0" }, [_vm._v("Page not found")]),
-        _vm._v(" "),
-        _c("p", { staticClass: "lead m-0" }, [
-          _vm._v(
-            "\n                        Ops, the page that you're looking for was not found\n                    "
-          ),
+    return _c("div", { staticClass: "p-5 bg-dark text-light" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "d-flex align-items-center gap-3" }, [
+          _c("div", { staticClass: "text" }, [
+            _c("h1", { staticClass: "display-4 m-0" }, [
+              _vm._v("Page not found"),
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "lead m-0" }, [
+              _vm._v(
+                "\n                        Ops, the page that you're looking for was not found\n                    "
+              ),
+            ]),
+          ]),
         ]),
       ]),
     ])
@@ -55706,7 +55679,7 @@ var routes = [{
   component: _pages_Contacts__WEBPACK_IMPORTED_MODULE_6__["default"]
 }, {
   path: '/*',
-  name: 'npt-found',
+  name: 'not-found',
   component: _pages_NotFound__WEBPACK_IMPORTED_MODULE_7__["default"]
 }]; // 3. Create the router instance and pass the `routes` option
 // You can pass in additional options here, but let's
