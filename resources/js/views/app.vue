@@ -55,6 +55,10 @@ export default {
                     name: 'posts',
                     text: 'Posts',
                 },
+                {
+                    name: 'contacts',
+                    text: 'Contacts',
+                },
             ],
             /* activeItem: 0 */
         }

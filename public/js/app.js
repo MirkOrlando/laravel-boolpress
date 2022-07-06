@@ -1963,6 +1963,64 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Contacts.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Contacts.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'Contacts'
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=script&lang=js&":
 /*!**********************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Home.vue?vue&type=script&lang=js& ***!
@@ -2378,6 +2436,9 @@ __webpack_require__.r(__webpack_exports__);
       }, {
         name: 'posts',
         text: 'Posts'
+      }, {
+        name: 'contacts',
+        text: 'Contacts'
       }]
       /* activeItem: 0 */
 
@@ -38774,6 +38835,77 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Contacts.vue?vue&type=template&id=2d69ed48&":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Contacts.vue?vue&type=template&id=2d69ed48& ***!
+  \******************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "page" }, [
+    _c("div", { staticClass: "p-5 bg-dark text-light" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("h1", { staticClass: "display-3" }, [_vm._v("BoolPress")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "lead" }, [
+          _vm._v(
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, quisquam."
+          ),
+        ]),
+        _vm._v(" "),
+        _c("hr", { staticClass: "my-2" }),
+        _vm._v(" "),
+        _c("p", [_vm._v("Visit the Blog!")]),
+        _vm._v(" "),
+        _c(
+          "p",
+          { staticClass: "lead" },
+          [
+            _c(
+              "router-link",
+              {
+                staticClass: "btn btn-primary btn-lg",
+                attrs: { to: { name: "posts" } },
+              },
+              [_vm._v("Go to Blog")]
+            ),
+          ],
+          1
+        ),
+      ]),
+    ]),
+    _vm._v("\n    ."),
+    _vm._m(0),
+  ])
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("p", { staticClass: "content py-4" }, [
+        _vm._v(
+          "\n            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui maiores non, veniam unde, ducimus quasi\n            aperiam similique harum tempora mollitia iste accusamus quos quisquam deserunt dolore provident\n            consequatur libero. Voluptates assumenda et sapiente harum praesentium ad rem vel facilis maxime,\n            consequatur repellendus nemo corporis iure. Alias mollitia, facilis iure aliquam quos sit blanditiis sed\n            molestiae nemo, illo doloremque. Dicta quis molestiae sequi tempora perspiciatis et porro, quibusdam\n            itaque pariatur, consequatur fuga quam neque similique accusamus. Corporis exercitationem fugiat earum\n            ex accusamus dicta. Eos reiciendis sunt dicta odio officiis quod nihil nemo architecto a mollitia illum,\n            nam consequatur ipsam fugiat pariatur maiores ullam voluptates accusantium nesciunt voluptas, voluptatem\n            facere laudantium illo? Dolore saepe, dolorum quidem illo optio nam pariatur repudiandae impedit\n            eligendi! Aliquid non incidunt sunt sequi asperiores magnam itaque modi facilis possimus culpa\n            recusandae accusamus vitae quibusdam neque vero deserunt, dicta adipisci officia aspernatur ullam\n            explicabo rem. Iusto, hic, deleniti praesentium molestias, vero ullam excepturi similique ipsam sequi\n            unde tempore. In hic dolorum ratione inventore, natus, ipsa omnis architecto impedit a quos facere\n            recusandae voluptas ad sint cum consequuntur dolorem vel? Quasi alias pariatur, quam dolore, perferendis\n            accusamus quos quas quidem laborum ratione fugit aliquid aperiam autem at voluptatem assumenda earum\n            maiores libero minus veritatis possimus magnam animi tempore exercitationem. Cum beatae nostrum quasi\n            exercitationem? Repudiandae ipsum, at itaque similique ducimus inventore veritatis dolorum qui error\n            saepe! Aspernatur minima ipsam aut, corrupti dolorum laudantium veniam ratione laborum excepturi\n            deserunt libero distinctio repellendus provident natus. Cum hic in mollitia eius odio aut vitae adipisci\n            libero magni? Harum quam sed facere veritatis quasi libero, esse delectus placeat illum minus magnam\n            consectetur aliquam ut nobis voluptas voluptate est tempora quisquam expedita. Dolore, saepe. Iusto quis\n            nesciunt dolore molestiae repudiandae quasi maiores veniam accusantium quod praesentium debitis unde\n            consequuntur, adipisci, explicabo obcaecati molestias neque!\n        "
+        ),
+      ]),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&":
 /*!**************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30& ***!
@@ -55098,6 +55230,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/pages/Contacts.vue":
+/*!*****************************************!*\
+  !*** ./resources/js/pages/Contacts.vue ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Contacts_vue_vue_type_template_id_2d69ed48___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Contacts.vue?vue&type=template&id=2d69ed48& */ "./resources/js/pages/Contacts.vue?vue&type=template&id=2d69ed48&");
+/* harmony import */ var _Contacts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contacts.vue?vue&type=script&lang=js& */ "./resources/js/pages/Contacts.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Contacts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Contacts_vue_vue_type_template_id_2d69ed48___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Contacts_vue_vue_type_template_id_2d69ed48___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/Contacts.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/pages/Contacts.vue?vue&type=script&lang=js&":
+/*!******************************************************************!*\
+  !*** ./resources/js/pages/Contacts.vue?vue&type=script&lang=js& ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Contacts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Contacts.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Contacts.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Contacts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/pages/Contacts.vue?vue&type=template&id=2d69ed48&":
+/*!************************************************************************!*\
+  !*** ./resources/js/pages/Contacts.vue?vue&type=template&id=2d69ed48& ***!
+  \************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Contacts_vue_vue_type_template_id_2d69ed48___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Contacts.vue?vue&type=template&id=2d69ed48& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Contacts.vue?vue&type=template&id=2d69ed48&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Contacts_vue_vue_type_template_id_2d69ed48___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Contacts_vue_vue_type_template_id_2d69ed48___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/pages/Home.vue":
 /*!*************************************!*\
   !*** ./resources/js/pages/Home.vue ***!
@@ -55408,13 +55609,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/About */ "./resources/js/pages/About.vue");
 /* harmony import */ var _pages_Posts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/Posts */ "./resources/js/pages/Posts.vue");
 /* harmony import */ var _pages_Post__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/Post */ "./resources/js/pages/Post.vue");
-/* harmony import */ var _pages_NotFound__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/NotFound */ "./resources/js/pages/NotFound.vue");
+/* harmony import */ var _pages_Contacts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/Contacts */ "./resources/js/pages/Contacts.vue");
+/* harmony import */ var _pages_NotFound__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/NotFound */ "./resources/js/pages/NotFound.vue");
 // 0. If using a module system (e.g. via vue-cli), import Vue and VueRouter
 // and then call `Vue.use(VueRouter)`.
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]); // 1. Define route components.
 // These can be imported from other files
+
 
 
 
@@ -55443,9 +55646,13 @@ var routes = [{
   name: 'post',
   component: _pages_Post__WEBPACK_IMPORTED_MODULE_5__["default"]
 }, {
+  path: '/contacts',
+  name: 'contacts',
+  component: _pages_Contacts__WEBPACK_IMPORTED_MODULE_6__["default"]
+}, {
   path: '/*',
   name: 'npt-found',
-  component: _pages_NotFound__WEBPACK_IMPORTED_MODULE_6__["default"]
+  component: _pages_NotFound__WEBPACK_IMPORTED_MODULE_7__["default"]
 }]; // 3. Create the router instance and pass the `routes` option
 // You can pass in additional options here, but let's
 // keep it simple for now.
