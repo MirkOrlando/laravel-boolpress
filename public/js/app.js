@@ -2112,6 +2112,21 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'NotFound'
 });
@@ -39018,6 +39033,46 @@ var render = function () {
         ),
       ]),
     ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "redirect" }, [
+      _c("p", [
+        _vm._v(
+          "The page you requested was not found, try to visit these pages:"
+        ),
+      ]),
+      _vm._v(" "),
+      _c("ul", [
+        _c(
+          "li",
+          [
+            _c("router-link", { attrs: { to: { name: "home" } } }, [
+              _vm._v("Homepage"),
+            ]),
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("router-link", { attrs: { to: { name: "about" } } }, [
+              _vm._v("About"),
+            ]),
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("router-link", { attrs: { to: { name: "posts" } } }, [
+              _vm._v("Posts"),
+            ]),
+          ],
+          1
+        ),
+      ]),
+    ]),
   ])
 }
 var staticRenderFns = [
@@ -39214,7 +39269,7 @@ var render = function () {
     [
       _c("bannerComponent"),
       _vm._v(" "),
-      _c("main", { staticClass: "d-flex py-5" }, [
+      _c("main", { staticClass: "d-flex justify-content-center py-5" }, [
         _c("section", { staticClass: "posts" }, [
           _c("div", { staticClass: "container" }, [
             _c(

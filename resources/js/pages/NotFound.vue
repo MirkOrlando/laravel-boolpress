@@ -20,6 +20,21 @@
                 </p>
             </div>
         </div>
+        <div class="redirect">
+            <p>The page you requested was not found, try to visit these pages:</p>
+            <ul>
+                <li>
+                    <router-link :to="{ name: 'home' }">Homepage</router-link>
+                </li>
+                <li>
+                    <router-link :to="{ name: 'about' }">About</router-link>
+                </li>
+                <li>
+                    <router-link :to="{ name: 'posts' }">Posts</router-link>
+                </li>
+
+            </ul>
+        </div>
     </div>
 </template>
 <script>

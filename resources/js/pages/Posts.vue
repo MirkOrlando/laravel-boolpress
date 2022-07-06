@@ -1,7 +1,7 @@
 <template>
     <div class="page">
         <bannerComponent />
-        <main class="d-flex py-5">
+        <main class="d-flex justify-content-center py-5">
             <section class="posts">
                 <div class="container">
                     <div style="row-gap: 1.5rem;" class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
