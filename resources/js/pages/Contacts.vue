@@ -2,47 +2,43 @@
     <div class="page">
         <div class="p-5 bg-dark text-light">
             <div class="container">
-                <h1 class="display-3">BoolPress</h1>
+                <h1 class="display-3">Contact Us</h1>
                 <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, quisquam.</p>
-                <hr class="my-2">
-                <p>Visit the Blog!</p>
-                <p class="lead">
-                    <router-link class="btn btn-primary btn-lg" :to="{ name: 'posts' }">Go to Blog</router-link>
-                </p>
             </div>
         </div>
-        .<div class="container">
-            <p class="content py-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui maiores non, veniam unde, ducimus quasi
-                aperiam similique harum tempora mollitia iste accusamus quos quisquam deserunt dolore provident
-                consequatur libero. Voluptates assumenda et sapiente harum praesentium ad rem vel facilis maxime,
-                consequatur repellendus nemo corporis iure. Alias mollitia, facilis iure aliquam quos sit blanditiis sed
-                molestiae nemo, illo doloremque. Dicta quis molestiae sequi tempora perspiciatis et porro, quibusdam
-                itaque pariatur, consequatur fuga quam neque similique accusamus. Corporis exercitationem fugiat earum
-                ex accusamus dicta. Eos reiciendis sunt dicta odio officiis quod nihil nemo architecto a mollitia illum,
-                nam consequatur ipsam fugiat pariatur maiores ullam voluptates accusantium nesciunt voluptas, voluptatem
-                facere laudantium illo? Dolore saepe, dolorum quidem illo optio nam pariatur repudiandae impedit
-                eligendi! Aliquid non incidunt sunt sequi asperiores magnam itaque modi facilis possimus culpa
-                recusandae accusamus vitae quibusdam neque vero deserunt, dicta adipisci officia aspernatur ullam
-                explicabo rem. Iusto, hic, deleniti praesentium molestias, vero ullam excepturi similique ipsam sequi
-                unde tempore. In hic dolorum ratione inventore, natus, ipsa omnis architecto impedit a quos facere
-                recusandae voluptas ad sint cum consequuntur dolorem vel? Quasi alias pariatur, quam dolore, perferendis
-                accusamus quos quas quidem laborum ratione fugit aliquid aperiam autem at voluptatem assumenda earum
-                maiores libero minus veritatis possimus magnam animi tempore exercitationem. Cum beatae nostrum quasi
-                exercitationem? Repudiandae ipsum, at itaque similique ducimus inventore veritatis dolorum qui error
-                saepe! Aspernatur minima ipsam aut, corrupti dolorum laudantium veniam ratione laborum excepturi
-                deserunt libero distinctio repellendus provident natus. Cum hic in mollitia eius odio aut vitae adipisci
-                libero magni? Harum quam sed facere veritatis quasi libero, esse delectus placeat illum minus magnam
-                consectetur aliquam ut nobis voluptas voluptate est tempora quisquam expedita. Dolore, saepe. Iusto quis
-                nesciunt dolore molestiae repudiandae quasi maiores veniam accusantium quod praesentium debitis unde
-                consequuntur, adipisci, explicabo obcaecati molestias neque!
-            </p>
-
+        <div class="container py-5">
+            <vue-form action="/contact-form" method="POST">
+                <div class="mb-3">
+                    <label for="full_name" class="form-label">Full Name</label>
+                    <input type="text" name="full_name" id="full_name" class="form-control" placeholder="Mario Rossi"
+                        aria-describedby="fullNameHelper">
+                    <small id="fullNameHelper" class="text-muted">Type your full name</small>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" name="email" id="email" class="form-control" placeholder="example@example.it"
+                        aria-describedby="emailHelper">
+                    <small id="emailHelper" class="text-muted">Type your email</small>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" name="subject" id="subject" class="form-control" placeholder="some subject"
+                        aria-describedby="subjectHelper">
+                    <small id="subjectHelper" class="text-muted">Type your subject</small>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" name="message" id="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </vue-form>
         </div>
     </div>
 </template>
 <script>
+import VueForm from '../components/VueForm.vue'
 export default {
     name: 'Contacts',
+    components: { VueForm }
 }
 </script>

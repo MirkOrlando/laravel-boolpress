@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Request;
 use App\Post;
 use App\Mail\PostUpdatedAdminMessage;
 
@@ -15,6 +16,10 @@ use App\Mail\PostUpdatedAdminMessage;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::post('contact-form', function (Request $request) {
+    ddd($request->all());
+});
 
 Auth::routes();
 
